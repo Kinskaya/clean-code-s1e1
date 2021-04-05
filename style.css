@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: 'Lato', sans-serif;
@@ -39,7 +39,8 @@ body {
   display: flex;
   margin-bottom: 16px;
 }
-ul {
+.todo-tasks,
+.complete-tasks {
   margin: 0;
   padding: 0px;
 }
@@ -135,7 +136,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+.complete-tasks label {
   text-decoration: line-through;
   color: #888;
 }
